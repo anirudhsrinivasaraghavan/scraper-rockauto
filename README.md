@@ -13,9 +13,7 @@ Ensure you have the following installed on your system:
 ### Configuration
 Before running the scraper, you need to configure the config.py file to match your target specifications. Here is an example of the config.py file:
 
-```
-If you want all parts of a particular attribute, leave it blank, for example leaving target_make blank would scrape all car make 
-```
+To retrieve all variations of a specific attribute, leave the attribute field blank. For example, if you want to scrape all car makes, leave the **target_make** field empty.
 
 
 ```python

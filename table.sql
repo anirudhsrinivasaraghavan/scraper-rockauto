@@ -1,0 +1,41 @@
+CREATE DATABASE rockauto;
+
+USE rockauto;
+
+CREATE TABLE parts (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    make VARCHAR(255),
+    makelink VARCHAR(255),
+    year VARCHAR(255),
+    yearlink VARCHAR(255),
+    model VARCHAR(255),
+    modellink VARCHAR(255),
+    engine VARCHAR(255),
+    enginelink VARCHAR(255),
+    category VARCHAR(255),
+    categorylink VARCHAR(255),
+    sub_category VARCHAR(255),
+    sub_categorylink VARCHAR(255),
+    productlink VARCHAR(255),
+    underline_remover VARCHAR(255),
+    part_position VARCHAR(255),
+    more_information TEXT,
+    manufacturer VARCHAR(255),
+    alternative_inventory VARCHAR(255),
+    part_number VARCHAR(255),
+    part_type VARCHAR(255),
+    part_description TEXT,
+    description TEXT,
+    image_link TEXT,
+    image_path TEXT,
+    disclaimer TEXT,
+    specification_heading VARCHAR(255),
+    specification TEXT,
+    specifications_table TEXT,
+    buyerguide_title VARCHAR(255),
+    buyersguide TEXT,
+    buyersguide_html TEXT,
+    product_type VARCHAR(255),
+    variation VARCHAR(255),
+    price VARCHAR(255)
+);

@@ -4,6 +4,8 @@
 ### Introduction
 This documentation provides an overview of how to install and use the Rockauto Scraper, which scrapes car part data from the Rockauto website based on the configurations set in config.py.
 
+The scraped data is stored in mysql database. Mysql installation is necessary for the program to work, (you can config mysql connection details in config.py)
+
 ### Prerequisites
 Ensure you have the following installed on your system:
 - pip install scrapy wget
